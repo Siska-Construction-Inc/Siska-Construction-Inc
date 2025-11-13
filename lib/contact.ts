@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "robert@siskaconstructioninc.com";
+const CONTACT_EMAIL = "contact@siskaconstructioninc.com";
 const MAIL_SUBJECT = encodeURIComponent("Poptávka rekonstrukce – Siska Construction Inc.");
 const MAIL_BODY = encodeURIComponent(
   "Dobrý den,\n\nrád(a) bych poptal(a) rekonstrukci. Prosím o zpětnou vazbu s návrhem termínu pro konzultaci.\n\nDěkuji a přeji hezký den,\n",

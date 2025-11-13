@@ -28,8 +28,8 @@ export function Footer() {
             </p>
             <p>
               <span className="font-medium">{t("contact.email")}:</span>{" "}
-              <a className={linkClasses} href="mailto:robert@siskaconstructioninc.com">
-                robert@siskaconstructioninc.com
+              <a className={linkClasses} href="mailto:contact@siskaconstructioninc.com">
+                contact@siskaconstructioninc.com
               </a>
             </p>
           </div>
