@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -49,9 +50,16 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link
           href="/"
-          className="text-lg font-semibold uppercase tracking-[0.2em] text-neutral-900"
+          className="flex items-center"
         >
-          Siska Construction
+          <Image
+            src="/logos/logo.jpg"
+            alt="Siska Construction logo"
+            width={168}
+            height={40}
+            className="h-10 w-auto"
+            priority
+          />
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
           {links.map((link) => {
