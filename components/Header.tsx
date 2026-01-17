@@ -53,7 +53,7 @@ export function Header() {
           className="flex items-center"
         >
           <Image
-            src="/logos/logo.jpg"
+            src="/logos/logo.png"
             alt="Siska Construction logo"
             width={168}
             height={40}
