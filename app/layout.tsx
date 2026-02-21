@@ -26,7 +26,24 @@ export const metadata: Metadata = {
     template: "%s | Siska Construction Inc.",
   },
   description:
-    "Precise renovations and full-service remodeling for apartments and houses across the Czech Republic.",
+    "Siska Construction Inc. — full-service remodeling and precise renovations. See individual project pages for detailed descriptions.",
+  keywords: [
+    "Siska Construction",
+    "Robert Siska",
+    "Chicago remodeling",
+    "Rancho Mirage renovation",
+    "Mission Viejo remodeling",
+    "Ladera Ranch renovation",
+    "Lake Shore Drive bathroom",
+    "Glen Ellyn remodel",
+    "kitchen remodeling",
+    "bathroom renovation",
+    "luxury home remodel",
+    "deck replacement",
+    "home renovation contractor",
+    "Southern California home remodeling",
+    "Northern Illinois remodeling",
+  ],
 };
 
 export default async function RootLayout({
