@@ -73,7 +73,6 @@ export default function AboutPage() {
 
       <section className="mx-auto max-w-6xl space-y-10 px-6 py-20">
         <div className="space-y-3">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">{t("team.kicker")}</p>
           <h2 className="text-3xl font-semibold text-neutral-900 md:text-4xl">{t("essenceHeading")}</h2>
         </div>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -89,13 +88,16 @@ export default function AboutPage() {
       <section className="bg-white py-20">
         <div className="mx-auto max-w-6xl space-y-8 px-6">
           <div className="space-y-2">
-            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">{t("teamHeading")}</p>
             <h2 className="text-3xl font-semibold text-neutral-900 md:text-4xl">{t("teamHeading")}</h2>
             <p className="text-base text-neutral-600">{t("teamDescription")}</p>
           </div>
+          
           <div className="flex flex-wrap justify-center gap-6">
             {teamMembers.map((member) => (
-              <article key={member.name} className="basis-full sm:basis-1/2 md:basis-1/3 max-w-sm rounded-3xl border border-neutral-200 bg-neutral-50 p-6 shadow-sm shadow-neutral-900/5">
+              <article 
+                key={member.name} 
+                className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] rounded-3xl border border-neutral-200 bg-neutral-50 p-6 shadow-sm shadow-neutral-900/5"
+              >
                 <div className="relative overflow-hidden rounded-2xl">
                   <Image
                     src={`/team/${member.image ?? 'robert.jpg'}`}
@@ -108,7 +110,7 @@ export default function AboutPage() {
                 </div>
                 <h3 className="mt-4 text-xl font-semibold text-neutral-900">{member.name}</h3>
                 <p className="mt-3 text-sm font-semibold uppercase tracking-[0.3em] text-neutral-500">{member.role}</p>
-                <p className="mt-3 text-sm text-neutral-600">{member.bio}</p>
+                <p className="mt-3 text-sm text-neutral-600 text-justify">{member.bio}</p>
               </article>
             ))}
           </div>
