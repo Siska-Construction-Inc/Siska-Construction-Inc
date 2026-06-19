@@ -34,15 +34,19 @@
       "role": "Founder & CEO",
       "image": "robert.jpg",
       "bio": "With over 30 years of experience and a strong background in business and management, Robert and his team take pride in delivering complete customer satisfaction on every project, big or small."
-    }
-    ,
+    },
     {
       "name": "Nita Kao",
       "role": "Chicagoland Office Manager",
       "image": "nita.jpg",
       "bio": "Accomplished business and management professional with more than 20 years of proven success in sales, leadership, operations management, recruiting, and team development. Track record of driving revenue growth, building high-performing teams, and delivering exceptional results through strategic planning, effective leadership, and employee training."
-    }
-    ,
+    },
+    {
+      "name": "Brett Freeman",
+      "role": "Marketing Manager",
+      "image": "brett.jpg",
+      "bio": "With an extensive background in real estate development, construction management, interior design, and real estate market analysis, Brett is a key member of our team. His comprehensive expertise in construction, design, and market trends enables him to deliver valuable insights and innovative solutions for every project. By combining technical knowledge with a deep understanding of the construction and real estate industry, Brett helps our company and our clients identify the best opportunities and achieve exceptional results. His commitment to quality, attention to detail, and customer-focused approach make him an invaluable resource throughout every stage of the development and design process."
+    },
     {
       "name": "Erick Bonilla",
       "role": "Project Manager, California Division",

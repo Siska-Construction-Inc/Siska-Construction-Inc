@@ -34,15 +34,19 @@
       "role": "Zakladatel a ředitel",
       "image": "robert.jpg",
       "bio": "S více než 30 lety zkušeností a silným zázemím v obchodě a managementu se Robert a jeho tým pyšní tím, že dodávají úplnou spokojenost zákazníků u každého projektu, velkého i malého."
-    }
-    ,
+    },
     {
       "name": "Nita Kao",
       "role": "Manažerka kanceláře v Chicagu",
       "image": "nita.jpg",
       "bio": "Úspěšná profesionálka v oblasti obchodu a řízení s více než 20 lety prokazatelných úspěchů v prodeji, vedení, řízení provozu, náboru a rozvoji týmů. Má zkušenosti s řízením růstu tržeb, budováním vysoce výkonných týmů a dosahováním vynikajících výsledků prostřednictvím strategického plánování, efektivního vedení a školení zaměstnanců."
-    }
-    ,
+    },
+    {
+      "name": "Brett Freeman",
+      "role": "Marketingový manažer",
+      "image": "brett.jpg",
+      "bio": "S rozsáhlými zkušenostmi ve vývoji nemovitostí, řízení staveb, interiérovém designu a analýze realitního trhu je Brett klíčovým členem našeho týmu. Jeho komplexní odborné znalosti ve stavebnictví, designu a trendech na trhu mu umožňují přinášet cenné poznatky a inovativní řešení pro každý projekt. Kombinací technických znalostí a hlubokého porozumění odvětví nemovitostí a stavebnictví pomáhá naší společnosti i klientům identifikovat nejlepší příležitosti a dosahovat vynikajících výsledků. Jeho závazek ke kvalitě, pozornost k detailu a zákaznicky orientovaný přístup z něj činí neocenitelný zdroj ve všech fázích vývoje a návrhu."
+    },
     {
       "name": "Erick Bonilla",
       "role": "Projektový manažer, divize Kalifornie",

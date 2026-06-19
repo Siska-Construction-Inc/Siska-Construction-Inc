@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { getContactPhone, contactEmail, getContactMailto, contactPerson } from "@/lib/contact";
+import { getContactPhone, contactEmail, getContactMailto, getContactPerson } from "@/lib/contact";
 import { useAppLocale } from "@/lib/i18n/TranslationProvider";
 
 export function ContactForm() {
@@ -73,7 +73,7 @@ export function ContactForm() {
               <div className="space-y-6">
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.3em] text-neutral-500">{t("contact.title")}</p>
-                  <p className="text-base font-medium text-neutral-700">{contactPerson}</p>
+                  <p className="text-base font-medium text-neutral-700">{getContactPerson(locale)}</p>
                 </div>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.3em] text-neutral-500">{t("contact.phone")}</p>
